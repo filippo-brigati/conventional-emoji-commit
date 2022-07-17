@@ -63,7 +63,11 @@ export default function Home() {
             <button onClick={() => setShowMe(!showMe)}>Version</button>
           </div>
           <div className="px-3 mx-4 text-white font-normal my-3 py-4">
-            <a target="_blank" href="https://filippobrigati.vercel.app/">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://filippobrigati.vercel.app/"
+            >
               About
             </a>
           </div>
@@ -95,6 +99,7 @@ export default function Home() {
               <a
                 type="button"
                 className="mr-4 mt-4 sm:mt-0 inline-flex items-center px-4 py-2 border border-white text-sm font-medium rounded-md text-white bg-trasparent focus:outline-none focus:ring-2 hover:bg-white hover:text-gray-700"
+                rel="noreferrer"
                 target="_blank"
                 href="https://github.com/filippo-brigati/conventional-emoji-commit"
               >
