@@ -57,12 +57,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-screen h-screen bg-gradient-to-l from-cyan-500 to-blue-500">
+      <div className="h-screen bg-gradient-to-l from-cyan-500 to-blue-500">
         <div className="max-w-4xl m-auto px-4 flex flex-row justify-end">
-          <div className="px-3 mx-4 text-white font-normal my-3 py-4">
+          <div className="px-3 text-white font-normal my-3 py-4">
             <button onClick={() => setShowMe(!showMe)}>Version</button>
           </div>
-          <div className="px-3 mx-4 text-white font-normal my-3 py-4">
+          <div className="px-3 text-white font-normal my-3 py-4">
             <a
               rel="noreferrer"
               target="_blank"
@@ -238,10 +238,10 @@ export default function Home() {
                               ♻️
                             </td>
                             <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                              refactore
+                              refactor
                             </td>
                             <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                              ♻️ refactore: login pages, navbar component, list
+                              ♻️ refactor: login pages, navbar component, list
                               component...
                             </td>
                           </tr>
